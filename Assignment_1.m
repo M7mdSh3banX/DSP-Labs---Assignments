@@ -8,7 +8,7 @@ D = [ 6 3 2 ; 2 12 -7 ; -1 6 2 ; -5 15 11 ];
 ans1 = ( 3*A ) - ( 5*C ); 
 
 % Point 2 : 
-ans2 = ( 7*A ) + ( 2*B );
+% ans2 = ( 7*A ) + ( 2*B );
 % { Error Because matrix A & B dimensions don't agree so that we can't add 2 matrices. }.
 % Size of A = 3*3 - Size of B = 4*4
 
@@ -57,12 +57,12 @@ eye (n);
 
 %% Question 3 :
 % Point 1 :
-X = [A , B];
+% X = [A , B];
 % Error Because matrix A must equal the same number of rows of matrix B.
 % A = 3 rows - B = 4 rows.
 
 % Point 2 ;
-Y = [A ; B];
+% Y = [A ; B];
 % Error Because matrix A must equal the same number of columns of matrix B.
 % A = 3 columns - B = 4 columns.
 
